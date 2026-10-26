@@ -17,5 +17,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "docker run --rm -v \"C:\\Users\\anjali\\sepm_project_submission/contracts:/sources\" -v \"C:\\Users\\anjali\\sepm_project_submission/build:/output\" ethereum/solc:0.8.24 --overwrite --combined-json abi,bin -o /output /sources/HelloWorld.sol"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9"
+  },
+  "devDependencies": {
+    "hardhat": "^2.28.0"
   }
 }
