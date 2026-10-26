@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "prepare-input": "node scripts/build-input.js",
+    "prepare-input": "node scripts/build-input.cjs",
     "compile": "npm run prepare-input && docker compose run --rm solc",
     "deploy": "node scripts/deploy.js"
   },
