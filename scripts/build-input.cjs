@@ -1,4 +1,4 @@
-// scripts/build-input.js
+// scripts/build-input.cjs
 const fs = require("fs");
 const path = require("path");
 
